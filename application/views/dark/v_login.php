@@ -18,7 +18,7 @@
     <div class="page-form">
         <div class="panel panel-blue">
             <div class="panel-body pan">
-                <form method="POST" action="<?php echo base_url('landing/login') ?>" class="form-horizontal">
+                <form method="POST" action="<?php echo base_url('author/login') ?>" class="form-horizontal">
                 <div class="form-body pal">
                     <div class="col-md-12 text-center">
                         <h1 style="margin-top: -90px; font-size: 48px;">

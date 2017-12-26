@@ -8,9 +8,10 @@
 			$username = $CI->session->userdata('username');
 			return $username;
 		}
-		function get_bio($table_name,$data)
+		function get_bio($table_name)
 		{
 			$CI = & get_instance();  //get instance, access the CI superobject
+			$data = array('username'=>get_user());
 			$x = $CI->db->get_where($table_name,$data);
 			return $x->row();
 		}
